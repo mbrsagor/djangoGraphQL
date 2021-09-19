@@ -20,3 +20,27 @@ source venv/bin/activate
 ./manage.py createsuperuser
 ./manage.py runserver
 ```
+
+##### Example of GraphQL demo:-
+- Query:
+```
+query{
+  users{
+    edges{
+      node{
+        username
+        email
+      }
+    }
+  }
+}
+```
+- Mutation:
+```
+
+```
+
+###### Install packages:
+- https://pypi.org/project/graphene-django
+- https://pypi.org/project/django-graphql-jwt
+- https://pypi.org/project/django-graphql-auth
