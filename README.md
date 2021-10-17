@@ -44,3 +44,6 @@ query{
 - https://pypi.org/project/graphene-django
 - https://pypi.org/project/django-graphql-jwt
 - https://pypi.org/project/django-graphql-auth
+
+https://www.youtube.com/watch?v=pyV2_F9wlk8
+39 min view the video
