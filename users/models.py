@@ -10,7 +10,7 @@ class ExtendUser(AbstractUser):
 
 
 class Blog(models.Model):
-    user = models.ForeignKey(ExtendUser, on_delete=models.SET_NULL, related_name='author')
+    user = models.ForeignKey(ExtendUser, on_delete=models.CASCADE, related_name='author')
     title = models.CharField(max_length=120)
     content = models.TextField()
     is_publish = models.BooleanField(default=True)
