@@ -35,10 +35,6 @@ query{
   }
 }
 ```
-- Mutation:
-```
-
-```
 
 ###### Install packages:
 - https://pypi.org/project/graphene-django
