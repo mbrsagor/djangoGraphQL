@@ -23,7 +23,7 @@ source venv/bin/activate
 
 ##### Example of GraphQL demo:-
 - Query:
-```
+```python
 query{
   users{
     edges{
